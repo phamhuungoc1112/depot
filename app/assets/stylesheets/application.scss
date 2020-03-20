@@ -15,6 +15,7 @@
  *= require_tree .
  *= require_self
  */
+
 body,
 body>p,
 body>ol,
@@ -64,26 +65,31 @@ body>td {
     flex: 1;
   }
 
+  //
   #side {
     padding: 1em 2em;
     background: #141;
-    form, div {
+
+    form,
+    div {
       display: inline;
     }
+
     input {
       font-size: small;
     }
+
     #cart {
       font-size: smaller;
-      color:
-      white;
+      color: white;
+
       table {
-      border-top:
-      1px dotted #595;
-      border-bottom: 1px dotted #595;
-      margin-bottom: 10px;
+        border-top: 1px dotted #595;
+        border-bottom: 1px dotted #595;
+        margin-bottom: 10px;
       }
     }
+
     ul {
       padding: 0;
 
@@ -97,6 +103,8 @@ body>td {
       }
     }
   }
+
+  //
 }
 
 @media all and (max-width: 800px) {
@@ -114,3 +122,48 @@ body>td {
     display: none;
   }
 }
+
+//
+.depot_form {
+  fieldset {
+    background: #efe;
+
+    legend {
+      color: #dfd;
+      background: #141;
+      font-family: sans-serif;
+      padding: 0.2em 1em;
+    }
+
+    div {
+      margin-bottom: 0.3em;
+    }
+  }
+
+  form {
+    label {
+      width: 5em;
+      float: left;
+      text-align: right;
+      padding-top: 0.2em;
+      margin-right: 0.1em;
+      display: block;
+    }
+
+    select,
+    textarea,
+    input {
+      margin-left: 0.5em;
+    }
+
+    .submit {
+      margin-left: 4em;
+    }
+
+    br {
+      display: none;
+    }
+  }
+}
+
+//
