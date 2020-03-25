@@ -28,52 +28,52 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
-en:
+vi:
 
   number:
     currency:
       format:
-        unit:      "$"
+        unit:      "USD"
         precision: 2
         separator: "."
         delimiter: ","
-        format:    "%u%n"
+        format:    "%n&nbsp;%u"
 
   errors:
     template:
-      body:        "There were problems with the following fields:"
+      body:        "Đã có những vấn đề với các yếu tố sau đây:"
       header:       
-        one:       "1 error prohibited this %{model} from being saved"
-        other:     "%{count} errors prohibited this %{model} from being saved"
+        one:       "1 lỗi ngăn cản %{model} được lưu"
+        other:     "%{count} 1 lỗi ngăn cản %{model} được lưu"
 
   layouts:
     application:
-      title:       "The Pragmatic Bookshelf"
-      home:        "Home"
-      questions:   "Questions"
-      news:        "News"
-      contact:     "Contact"
-      login:       "Login"
+      title:       "Tủ Sách Hữu Dụng"
+      home:        "Trang chủ"
+      questions:   "Câu hỏi"
+      news:        "Tin tức"
+      contact:     "Liên hệ"
+      login:       "Đăng nhập"
   carts:
     cart:
-      title:       "Your Cart"
-      empty:       "Empty cart"
-      checkout:    "Checkout"
+      title:       "Giỏ hàng của bạn"
+      empty:       "Làm trống giỏ"
+      checkout:    "Thanh toán"
 
   store:
     index:
-      title_html:  "Your Pragmatic Catalog"
-      add_html:    "Add to Cart"
+      title_html:  "Danh mục của bạn"
+      add_html:    "Thêm vào giỏ hàng"
 
   orders:
     new:
-      legend:       "Please Enter Your Details"
+      legend:       "Vui lòng điền thông tin của bạn"
     form:
-      name:         "Name"
-      address_html: "Address"
-      email:        "E-mail"
-      pay_type:     "Pay with"
-      pay_prompt_html: "Select a payment method"
-      submit:       "Place Order"
+      name:         "Họ tên"
+      address_html: "Địa chỉ"
+      email:        "Email"
+      pay_type:     "Thanh toán bằng"
+      pay_prompt_html: "Chọn 1 phương thức"
+      submit:       "Đặt hàng"
 
-  thanks:          "Thank you for your order"
+  thanks:          "Cảm ơn bạn đã đặt hàng"
