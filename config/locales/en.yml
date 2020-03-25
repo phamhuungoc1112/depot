@@ -36,8 +36,6 @@ en:
     questions: "Questions"
     news: "News"
     contact: "Contact"
-
-en:
   store:
     index:
       title_html: "Your Pragmatic Catalog"
