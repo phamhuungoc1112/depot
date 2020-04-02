@@ -53,3 +53,6 @@ Product.create!(title: 'Ruby Performance Optimization',
       </p>},
   image_url: 'adrpo.jpg',
   price: 46.00)
+  
+  User.delete_all
+  User.create!(name: 'admin', password_digest: '$2a$12$6q98OJEdhd4KiFxyUb.E0uEqxmYjOe6WSuEjS7nrjbWZpHQh1RN3.')
